@@ -8,7 +8,7 @@ import QuestionView from '../views/QuestionView.vue'
 const routes = [
     { name: 'Home', path: '/', component: HomeView },
     { name: 'Shop', path: '/landing', component: LandingView },
-    { name: 'Question', path: '/question:id', component: QuestionView },
+    { name: 'Question', path: '/question/:id', component: QuestionView },
     { name: 'Create', path: '/create', component: CreateView },
 ]
 
