@@ -3,7 +3,6 @@
 
 <template>
   <div class="container">
-    <Navbar />
     <RouterView />
   </div>
 </template>
