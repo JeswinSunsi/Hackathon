@@ -36,7 +36,7 @@
         </div>
 
         <div class="questions-list">
-          <div class="question-item" style="cursor: pointer;">
+          <div class="question-item" style="cursor: pointer;" @click="$router.push('/question/1')">
             <div class="question-header">
               <div class="question-category design">Design</div>
               <button class="question-options">
