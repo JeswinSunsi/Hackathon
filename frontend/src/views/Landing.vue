@@ -106,7 +106,6 @@ export default {
         { number: '25,000+', label: 'Active Members' },
         { number: '150,000+', label: 'Questions Asked' },
         { number: '500,000+', label: 'Answers Provided' },
-        { number: '95%', label: 'Questions Resolved' }
       ],
       features: [
         {
