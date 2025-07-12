@@ -80,7 +80,7 @@
               <button class="read-more-btn">Read all answers</button>
             </div>
           </div>
-  
+
         </div>
       </div>
 
@@ -767,7 +767,6 @@
   .question-title {
     font-size: 16px;
   }
-
   .search-input-wrapper {
     max-width: 100%;
   }
