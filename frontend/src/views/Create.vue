@@ -1,11 +1,14 @@
 <template>
   <div class="forum-container">
     <header class="forum-header">
-      <h1 class="forum-title">StackIt Forums</h1>
+      <h1 class="forum-title" @click="$router.push('/')" style="cursor: pointer;">StackIt Forums</h1>
       <div class="user-menu">
-        <div class="user-avatar">
+        <span style="display: flex;">
+          <div style="padding: 0.6rem 2rem; background-color: #2563EB; color: white; border-radius: 0.6rem; margin-right: 0.5rem;">Ask a question</div>
+          <div class="user-avatar">
           <div class="user-avatar-name">J</div>
         </div>
+        </span>
       </div>
     </header>
 
