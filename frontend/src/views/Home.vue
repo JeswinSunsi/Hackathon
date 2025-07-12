@@ -31,7 +31,7 @@
         </div>
 
         <div class="questions-list">
-          <div class="question-item">
+          <div class="question-item" style="cursor: pointer;">
             <div class="question-header">
               <div class="question-category design">Design</div>
               <button class="question-options">
@@ -80,8 +80,7 @@
               <button class="read-more-btn">Read all answers</button>
             </div>
           </div>
-
-
+  
         </div>
       </div>
 
@@ -188,10 +187,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'GeekForum'
-}
+<script setup>
 </script>
 
 <style>
